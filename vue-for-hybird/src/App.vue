@@ -98,19 +98,6 @@ export default {
 <style lang="less">
 @import "./assets/style/index.less";
 @border-base: #eaeaea;
-.child-view {
-  position: absolute;
-  width: 100%;
-  min-height: 100%;
-  height: 100%;
-  overflow: scroll;
-  /*为解决IOS iframe中无法滚动的bug做的修改*/
-  /*-webkit-overflow-scrolling:touch;*/
-  /*&:after {*/
-  /*min-height: calc(100% + 1px)*/
-  /*}*/
-}
-
 .slide-left-enter-active,
 .slide-left-leave-active,
 .slide-right-enter-active,
