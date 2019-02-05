@@ -1,0 +1,14 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true
+    },
+    "extends": ["standard", "eslint:recommended", "prettier"],
+    "plugins": ["html", "prettier"],
+    "rules": {
+        "prettier/prettier": ["error", {
+            "singleQuote": true
+        }]
+    }
+}

@@ -1,0 +1,194 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 19.7px;
+    -webkit-text-size-adjust: none;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+html {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+Section,
+abbr,
+article,
+aside,
+blockquote,
+body,
+canvas,
+dd,
+div,
+dl,
+dt,
+embed,
+fieldset,
+figure,
+form,
+gloabl,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+input,
+input,
+li,
+nav,
+nav,
+ol,
+p,
+pre,
+section,
+td,
+th,
+ul,
+xml {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+li,
+ol,
+ul {
+    list-style: none;
+}
+
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+
+}
+
+.col {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: block;
+    width: 100%
+}
+
+.h-center {
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.h-s-b {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.no-p {
+    padding: 0 !important;
+}
+
+.no-p-b {
+    padding-bottom: 0 !important;
+}
+
+.no-p-t {
+    padding-top: 0 !important;
+}
+
+.no-m {
+    margin: 0 !important;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+button {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    margin: 0;
+}
+
+label {
+    display: block;
+    height: 100%;
+}
+
+button:active {
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, .1);
+    opacity: 0.9;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+// TODO: 辉哥说这里去掉会有问题，坐等他重现
+/* IOS，input出现阴影 */
+::-webkit-input-placeholder {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #d9d9d9;
+}
+
+input,
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="text"],
+textarea {
+    -webkit-appearance: none !important;
+    /* 清楚ios阴影 */
+    -moz-appearance: none !important;
+    /* mobile firefox too! */
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+/* input为number时，在机子上显示上下箭头，去掉 */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+}
+
+body::-webkit-scrollbar,
+div::-webkit-scrollbar {
+    display: none;
+}
